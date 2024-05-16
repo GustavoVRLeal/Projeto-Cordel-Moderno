@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+html, body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+   
+}
+
+header > h1{
+    font-family: 'Passion one', cursive;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+p > a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section{
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.p1{
+    background-color: white;
+    padding: 7vw;
+    padding-left: 40px;
+}
+
+section.p2{
+    background: url(imagens/background001.jpg) center right no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+}
+
+section.p2 > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white; 
+    padding: 2vw;
+}
+
+section.p3{
+    background: url(imagens/background002.jpg) center right no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+}
+
+section.p3 > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+    padding: 2vw;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    line-height: 2vw;
+    font-size: 3vw;
+}
+
+a.linkum:hover{
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+}
